@@ -70,4 +70,25 @@ remotes::install_github("pbastide/phyloDE", ref = "40fa7f8")
       * `mole_rat_RNAseq_data_batch.tsv`: table of formatted results (with batch)
       * `fischer_lfc_cre_vs_lfc_rnaseq_by_tissue_branch.tsv`: table of CRE enrichment results
       * `mole_rat_RNAseq_TISSUE_DESIGN.tsv`: table of DE genes found by `phyloDE` for the TISSUE and DESIGN
+      
+* `crayfish_RNAseq`: data and scripts
+
+  * `00_data_format.R`: read and format the data
+  
+  * `scripts`: simulation scripts
+    * `01_simulations.R`: simulate interspecies count data using `compcodeR`
+    * `02_analysis.R`: analyse the simulated data
+    * `03_plots.R`: plot figures 2, S10
+      * **NOTE**: inputs needed to run the plot script are provided in the repository
+    
+  * `results`: scripts outputs
+    * `stern2018_cpd`: formatted data, produced by `00_data_format.R`
+    
+    * `2026-01-19_simulations_crayfish`: output from `crayfish_RNAseq/scripts/01_simulations.R`
+      * `params.RData`: saved simulation parameters
+      * `designs.RData`: saved simulation parameters
+      
+    * `2026-01-19_2026-01-19_simulations_results_crayfish`: output from `crayfish_RNAseq/scripts/02_analysis.R`
+      * `res.rds`: table of formatted results
+    
 
