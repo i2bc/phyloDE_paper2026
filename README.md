@@ -78,7 +78,7 @@ remotes::install_github("pbastide/phyloDE", ref = "40fa7f8")
   * `scripts`: simulation scripts
     * `01_simulations.R`: simulate interspecies count data using `compcodeR`
     * `02_analysis.R`: analyse the simulated data
-    * `03_plots.R`: plot figures 2, S10
+    * `03_plots.R`: plot figure S10
       * **NOTE**: inputs needed to run the plot script are provided in the repository
     
   * `results`: scripts outputs
@@ -89,6 +89,27 @@ remotes::install_github("pbastide/phyloDE", ref = "40fa7f8")
       * `designs.RData`: saved simulation parameters
       
     * `2026-01-19_2026-01-19_simulations_results_crayfish`: output from `crayfish_RNAseq/scripts/02_analysis.R`
+      * `res.rds`: table of formatted results
+      
+* `mammals_RNAseq`: data and scripts
+
+  * `00_data_format.R`: read and format the data
+  TODO: this is missing.
+  
+  * `scripts`: simulation scripts
+    * `01_simulations.R`: simulate interspecies count data using `compcodeR`
+    * `02_analysis.R`: analyse the simulated data
+    * `03_plots.R`: plot figure S11
+      * **NOTE**: inputs needed to run the plot script are provided in the repository
+    
+  * `results`: scripts outputs
+    * `chen2019_primates_cpd`: formatted data, produced by `00_data_format.R`
+    
+    * `2026-02-09_simulations_mammals`: output from `mammals_RNAseq/scripts/01_simulations.R`
+      * `params.RData`: saved simulation parameters
+      * `designs.RData`: saved simulation parameters
+      
+    * `2026-02-09_2026-02-09_simulations_results_mammals`: output from `mammals_RNAseq/scripts/02_analysis.R`
       * `res.rds`: table of formatted results
     
 

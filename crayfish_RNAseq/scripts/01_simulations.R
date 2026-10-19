@@ -26,7 +26,7 @@
 
 ## OUTPUT ######################################################################
 # Simulated data
-# Saved in `crayfish_RNAseq/results/YYY-MM-DD_simulations_crayfish_RNAseq_data_Liver`
+# Saved in `crayfish_RNAseq/results/YYY-MM-DD_simulations_crayfish_RNAseq`
 ################################################################################
 
 library(here)
