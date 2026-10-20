@@ -93,9 +93,11 @@ remotes::install_github("pbastide/phyloDE", ref = "40fa7f8")
       
 * `mammals_RNAseq`: data and scripts
 
-  * `00_data_format.R`: read and format the data
-  TODO: this is missing.
+  * `001_data_format.R`: read and format the raw data from the remote repository
+  * `002_data_format.R`: read and format the data
   
+  * `data`: raw data as formatted by script `001_data_format.R`.
+    
   * `scripts`: simulation scripts
     * `01_simulations.R`: simulate interspecies count data using `compcodeR`
     * `02_analysis.R`: analyse the simulated data

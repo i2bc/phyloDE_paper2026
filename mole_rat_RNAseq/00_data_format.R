@@ -16,9 +16,9 @@
 
 ## DESCRIPTION #################################################################
 # Program to format the data from:
-# Daunesse, M., Liorzou, E., Parey, E., Villar, D. and Berthelot, C. (2025), 
+# Daunesse, M., Liorzou, E., Parey, E., Villar, D. and Berthelot, C. (2026), 
 # 'Coordinated shifts in gene expression and regulation during mole-rat evolution', 
-# bioRxiv, 2025.11.24.690111.
+# BMC Biology, doi:10.1186/s12915-026-02713-5
 ################################################################################
 
 ## INPUT #######################################################################
