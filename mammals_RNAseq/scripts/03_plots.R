@@ -14,17 +14,15 @@
 # with this program; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-# Program to compute scores of the differential expression analysis methods.
-# Use input from script 04_simulations_data_analysis_results.R
-# The full result table from our own run is provided for convenience
-
 ## DESCRIPTION #################################################################
-# Program to plot the formated results
+# Program to plot the formatted results
 ################################################################################
 
 ## INPUT #######################################################################
 # Formatted result table
-# Saved in `mammals_RNAseq/results/YYYY-MM-DD_YYYY-MM-DD_simulations_results_mammals_RNAseq`
+# Produced by mammals_RNAseq/scripts/02_analysis.R
+# Saved in `mammals_RNAseq/results/YYYY-MM-DD_YYYY-MM-DD_simulations_results_crayfish_RNAseq`
+# The full result table from our own run is provided for convenience
 ################################################################################
 
 ## OUTPUT ######################################################################

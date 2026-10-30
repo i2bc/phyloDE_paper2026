@@ -14,17 +14,15 @@
 # with this program; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-# Program to compute scores of the differential expression analysis methods.
-# Use input from script 04_simulations_data_analysis_results.R
-# The full result table from our own run is provided for convenience
-
 ## DESCRIPTION #################################################################
-# Program to plot the formated results
+# Program to plot the formatted results
 ################################################################################
 
 ## INPUT #######################################################################
 # Formatted result table
+# Produced by mole_rat_RNAseq/scripts/01_simulations_compcodeR/03_format_results.R
 # Saved in `mole_rat_RNAseq/results/YYYY-MM-DD_YYYY-MM-DD_simulations_results_mole_rat_RNAseq_data_Liver`
+# The full result table from our own run is provided for convenience
 ################################################################################
 
 ## OUTPUT ######################################################################

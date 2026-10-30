@@ -1,6 +1,6 @@
 Code to reproduce simulations and data analysis in 
 "Interspecies Differential Gene Expression Analysis with Regularized Phylogenetic Linear Models" 
-(Gallopin et al. 2026)
+(Gallopin et al. 2026, https://doi.org/10.64898/2026.06.30.734542)
 
 ## Requirements
 

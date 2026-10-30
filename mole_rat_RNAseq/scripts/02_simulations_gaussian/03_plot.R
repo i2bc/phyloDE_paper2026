@@ -23,8 +23,10 @@
 ################################################################################
 
 ## INPUT #######################################################################
-# Results of the analyses
+# Formatted result table
+# Produced by `mole_rat_RNAseq/scripts/02_simulations_gaussian/02_analysis.R`
 # Saved in `mole_rat_RNAseq/results/YYY-MM-DD_YYY-MM-DD_gaussian_simulations_results`
+# The full result table from our own run is provided for convenience
 ################################################################################
 
 ## OUTPUT ######################################################################
