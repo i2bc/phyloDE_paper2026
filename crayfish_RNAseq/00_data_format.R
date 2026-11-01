@@ -126,5 +126,5 @@ cpd <- phyloCompData(tree = tree_rep,
 check_phyloCompData(cpd)
 
 ## save data to rds file
-saveRDS(cpd, file = here("crayfish_RNAseq", "data", "stern2018_cpd.rds"))
+saveRDS(cpd, file = here("crayfish_RNAseq", "results", "stern2018_cpd.rds"))
 
